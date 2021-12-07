@@ -1,0 +1,6 @@
+@import './App.css';
+
+div.Notifications {
+  border: 3px solid var(--red);
+  padding: 10px;
+}
