@@ -19,7 +19,7 @@ const App = () => {
         <button>OK</button>
       </div>
       <div className="App-footer">
-        <p>Copyright 2020 - holberton School</p>
+        <p>Copyright 2020 - Holberton School</p>
       </div>
     </>
   )

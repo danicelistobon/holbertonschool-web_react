@@ -1,6 +1,28 @@
 @import './App.css';
 
 div.Notifications {
-  border: 3px solid var(--red);
-  padding: 10px;
+  border: 1px dashed var(--red);
+  margin: 1px 1px 15px;
+  padding: 20px 10px;
+}
+
+div.Notifications button img {
+  width: 10px;
+}
+
+div.Notifications p {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+div.Notifications li {
+  margin-left: 35px;
+}
+
+[data-priority='default'] {
+  color: var(--blue);
+}
+
+[data-priority='urgent'] {
+  color: var(--red);
 }
